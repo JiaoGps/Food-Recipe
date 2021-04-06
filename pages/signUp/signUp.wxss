@@ -1,0 +1,79 @@
+.main {
+  padding: 0;
+  margin: 0;
+}
+
+.sign-view-title-titleText {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 70rpx;
+  font-family: Roboto;
+  font-weight: 500;
+  color: #FF3548;
+  opacity: 1;
+}
+
+.sign-view-title-text {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 40rpx;
+  font-family: Roboto;
+  font-weight: 300;
+  color: #716F87;
+  opacity: 1;
+  padding-top: 8rpx;
+}
+.sign-from{
+  margin-bottom: 50rpx;
+}
+.sign-from-top{
+  margin-top:96rpx ;
+}
+.sign-from-buttom{
+  margin-bottom:46rpx ;
+}
+.sign-from-center{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.sign-from-input {
+  width: 598rpx;
+  height: 92rpx;
+  border: 1px solid #E4E4E4;
+  padding-left: 38rpx;
+  opacity: 1;
+  border-radius: 146rpx;
+}
+.sign-from-button{
+  background: #D30000;
+  border-radius: 54rpx;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 58rpx;
+  font-size: 28rpx;
+  color: #FFFFFF;
+}
+.sign-button-hover{
+  box-shadow:0px 20rpx 80rpx -20rpx #D30000
+}
+.sign-text-prompt{
+  display: flex;
+  justify-content: center;
+}
+.sign-text-prompt-text {
+  font-size: 30rpx;
+  font-family: Roboto;
+  font-weight: 500;
+  color: #9391A4;
+}
+
+.sign-input-navigator {
+  font-size: 30rpx;
+  font-family: Roboto;
+  font-weight: 500;
+  color: #23203F;
+}

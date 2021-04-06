@@ -1,0 +1,19 @@
+<view class="main">
+  <view class="sign-view-title">
+    <view class="sign-view-title-titleText">Sign In</view>
+    <view class="sign-view-title-text">Login to continue your account</view>
+  </view>
+  <view class="sign-view-image">
+    <image class="sign-image" mode="aspectFill" src="/image/登录.png"></image>
+  </view>
+  <view class="sign-view-from sign-view-buttom">
+    <view class="sign-view-from-center sign-view-buttom"><input class="sign-input-account sign-input"
+        placeholder="Account" /></view>
+    <view class="sign-view-from-center sign-view-buttom"><input class="sign-input-passWord sign-input" placeholder="PassWord" /></view>
+    <button style="width: 636rpx;height: 92rpx;" data-account="107889" hover-class="sign-button-hover"  bindtap="toHome" class="sign-button">LOGIN</button>
+  </view>
+  <view class="sign-input-prompt">
+    <view class="sign-input-text">Don't have an account? </view>
+    <navigator class="sign-input-text sign-input-navigator" url="/pages/signUp/signUp">Sign up</navigator>
+  </view>
+</view>

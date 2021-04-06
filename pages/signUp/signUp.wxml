@@ -1,0 +1,23 @@
+<view>
+  <view class="sign-view-title">
+    <view class="sign-view-title-titleText">Sign Up</view>
+    <view class="sign-view-title-text">Create an account</view>
+  </view>
+  <view class="sign-from">
+    <view class="sign-from-center sign-from-top sign-from-buttom"><input class="sign-from-input" type="text"
+        placeholder="Account" /></view>
+    <view class="sign-from-center sign-from-buttom"><input class="sign-from-input" type="text"
+        placeholder="Last name" /></view>
+    <view class="sign-from-center sign-from-buttom"><input class="sign-from-input" type="text" placeholder="Email" />
+    </view>
+    <view class="sign-from-center sign-from-buttom"> <input class="sign-from-input" type="text" placeholder="Phone" />
+    </view>
+    <view class="sign-from-center sign-from-buttom"><input class="sign-from-input" type="text" placeholder="Password" />
+    </view>
+    <button style="width: 636rpx;height: 92rpx;" hover-class="sign-button-hover"  class="sign-from-button ">REGISTER</button>
+  </view>
+  <view class="sign-text-prompt">
+    <view class="sign-text-prompt-text">Already have an account? </view>
+    <navigator class="sign-text-prompt-text sign-input-navigator" url="/pages/signIn/signIn">Login</navigator>
+  </view>
+</view>

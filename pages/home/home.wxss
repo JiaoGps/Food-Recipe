@@ -1,0 +1,160 @@
+
+.home-navigationBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* min-width: 132rpx;
+  width: 750rpx;
+  position: fixed;
+  top: 0rpx ; */
+}
+
+.home-title {
+  font-size: 60rpx;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 132rpx;
+  color: #474559;
+}
+
+.home-menu {
+  width: 40rpx;
+  height: 28rpx;
+}
+
+.bg-white {
+  box-sizing: border-box;
+  background-color: var(--white);
+  color: var(--darkGray);
+}
+
+.nav {
+  white-space: nowrap;
+  color: #9E9DB0;
+}
+
+.nav .cu-item {
+  box-sizing: border-box;
+  height: 90rpx;
+  display: inline-block;
+  line-height: 90rpx;
+  font-weight: 500;
+  font-size: 40rpx;
+  margin: 0 10rpx;
+  padding: 0 20rpx;
+
+}
+
+.nav .cu-item.cur {
+  border-bottom: 6rpx solid #FF4552;
+
+}
+
+.text-green {
+  color: #474559;
+}
+
+/* ==================
+         轮播
+ ==================== */
+
+swiper.square-dot .wx-swiper-dot {
+  background-color: var(--white);
+  opacity: 0.4;
+  width: 10rpx;
+  height: 10rpx;
+  border-radius: 20rpx;
+  margin: 0 8rpx !important;
+}
+
+swiper.square-dot .wx-swiper-dot.wx-swiper-dot-active {
+  opacity: 1;
+  width: 30rpx;
+}
+
+.swiper-item image,
+.swiper-item video {
+  width: 100%;
+  display: block;
+  height: 100%;
+  margin: 0;
+  pointer-events: none;
+}
+
+.card-swiper {
+  margin-top: 54rpx;
+  height: 428rpx !important;
+}
+
+.card-swiper swiper-item {
+  width: 610rpx !important;
+  left: 70rpx;
+  box-sizing: border-box;
+  padding: 0rpx 0rpx 60rpx;
+  overflow: initial;
+}
+
+.card-swiper swiper-item .swiper-item {
+  width: 100%;
+  display: block;
+  height: 100%;
+  border-radius: 10rpx;
+  transform: scale(0.9);
+  transition: all 0.2s ease-in 0s;
+  overflow: hidden;
+}
+
+.card-swiper swiper-item.cur .swiper-item {
+  transform: none;
+  transition: all 0.2s ease-in 0s;
+}
+
+.cald {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cald-view {
+  width: 328rpx;
+  height: 390rpx;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 16rpx rgba(206, 206, 206, 0.56);
+  opacity: 1;
+  border-radius: 18rpx;
+  margin-bottom: 30rpx;
+}
+
+.cald image {
+  width: 257.38rpx;
+  height: 133.26rpx;
+  margin: 54rpx 44rpx 60rpx 26rpx;
+}
+
+.cald-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36rpx;
+  font-family: Roboto;
+  font-weight: 500;
+  color: #474559;
+  opacity: 1;
+  margin-bottom: 16rpx;
+}
+
+.cald button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42rpx;
+  border-radius: 35rpx;
+  background: #FC3346;
+  box-shadow: 0px 2rpx 20rpx #FC3346;
+  opacity: 1;
+  font-size: 24rpx;
+  line-height: 10rpx;
+  font-family: Roboto;
+  font-weight: 500;
+  color: #FFFFFF;
+}
